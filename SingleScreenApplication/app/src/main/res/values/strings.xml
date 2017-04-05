@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Juicy Grill</string>
+    <string name="restaurant_name">Juicy Grill</string>
+    <string name="reserve">Reserve</string>
+    <string name="description_label">Description:</string>
+    <string name="description_text">Voted best burger restaurant for 2016! \nEnjoy our delicious burgers
+    every day in Cholargos! We aim to offer you delicious burgers at competitive prices, accompanied
+    by excellent service! Give our burgers a try and we promise, you will be hooked!</string>
+    <string name="address_label">Address:</string>
+    <string name="address_text">Keramikou 2, Cholargos 155 61, Greece</string>
+    <string name="phone_label">Phone:</string>
+    <string name="phone_text">+30 21 5520 3201</string>
+    <string name="open_hours_label">Open Hours:</string>
+    <string name="workday_hours">17:00 - 23:00</string>
+    <string name="weekend_hours">15:00 - 01:00</string>
+</resources>
