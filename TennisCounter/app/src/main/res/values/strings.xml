@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tennis Counter</string>
+    <string name="fifteen">15</string>
+    <string name="thirty">30</string>
+    <string name="forty">40</string>
+    <string name="advantage">Adv</string>
+    <string name="game">Game</string>
+    <string name="game_count">Games:</string>
+    <string name="set">Set</string>
+    <string name="set_count">Sets:</string>
+    <string name="reset">Reset</string>
+    <string name="player">Player</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="player1_wins">Player 1 Wins!</string>
+    <string name="player2_wins">Player 2 Wins!</string>
+
+</resources>
