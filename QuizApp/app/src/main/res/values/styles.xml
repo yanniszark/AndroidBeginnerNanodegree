@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="radioButtonStyle">@style/RadioStyle</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+    </style>
+
+    <style name="RadioStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/primary_blue</item>
+        <item name="android:backgroundTint">@color/primary_blue</item>
+        <item name="android:colorButtonNormal">@color/primary_blue</item>
+        <item name="android:colorControlNormal">@color/primary_blue</item>
+        <item name="android:colorControlActivated">@color/primary_blue</item>
+        <item name="android:colorControlHighlight">@color/status_bar_color</item>
+    </style>
+</resources>

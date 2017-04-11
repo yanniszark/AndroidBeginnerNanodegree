@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_screen_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparentGrey"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_vertical_margin"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@color/text_bg"
+            android:textSize="@dimen/start_screen_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_edittext"
+            android:gravity="center"
+            android:hint="@string/enter_name_hint"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/text_bg"
+            android:textColorHint="@color/primary_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_vertical_margin"
+            android:text="@string/category_select"
+            android:textColor="@color/text_bg"
+            android:textSize="@dimen/start_screen_text" />
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_vertical_margin"
+            android:backgroundTint="@color/primary_light"
+            android:textColor="@color/text_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_vertical_margin"
+            android:text="@string/difficulty_select"
+            android:textColor="@color/text_bg"
+            android:textSize="@dimen/start_screen_text" />
+
+        <Spinner
+            android:id="@+id/difficulty_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_vertical_margin"
+            android:backgroundTint="@color/primary_light"
+            android:textColor="@color/primary_light" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:onClick="startNewGame"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/quiz_title"
+        android:textColor="#F8BBD0"
+        android:textSize="62sp"
+        android:textStyle="bold"/>
+</RelativeLayout>

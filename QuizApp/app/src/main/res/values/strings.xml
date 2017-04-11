@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz Ninja</string>
+    <string name="name">Name:</string>
+    <string name="enter_name_hint">Enter your name here...</string>
+    <string name="start">Start</string>
+    <string name="quiz_title">Quiz Ninja</string>
+    <string name="submit">Submit</string>
+    <string name="retry">Retry</string>
+    <string name="new_quiz">New</string>
+    <string name="score">Score</string>
+    <string name="category_select">Category:</string>
+    <string name="difficulty_select">Difficulty:</string>
+    <string name="main_menu">Main Menu</string>
+    <string-array name="categories_array">
+        <item>Anime</item>
+        <item>Arts</item>
+        <item>Computer Science</item>
+        <item>History</item>
+        <item>Mathematics</item>
+        <item>Politics</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="difficulty_level_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
